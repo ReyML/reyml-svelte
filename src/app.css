@@ -6,14 +6,6 @@ html {
     background-color: #0f0c1d;
 }
 
-
-/*!
- * Hamburgers
- * @description Tasty CSS-animated hamburgers
- * @author Jonathan Suh @jonsuh
- * @site https://jonsuh.com/hamburgers
- * @link https://github.com/jonsuh/hamburgers
- */
 .hamburger {
   padding: 15px 15px;
   display: inline-block;

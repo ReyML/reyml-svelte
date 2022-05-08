@@ -1,6 +1,4 @@
 <script>
-    import Title from '$lib/Title.svelte';
-
     let active = false
     const handleClick = () => {
         scroll(0,0)

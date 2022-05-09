@@ -23,7 +23,7 @@
      </div>
   </nav>  
   {#if active}       
-  <div transition:blur="{{amount: 20}, {duration: 800}}" class='h-screen w-72 py-16 px-8 text-4xl translate-y-80 mt-20 fixed z-10 bg-black rounded-lg shadow-md shadow-gray-900 hidden' class:hidden={activee} on:click={handleClick}>
+  <div transition:blur="{{amount: 20}, {duration: 800}}" class='h-screen w-72 py-16 px-8 text-4xl translate-y-80 mt-20 fixed z-10 rounded-lg  hidden' class:hidden={activee} on:click={handleClick}>
     <div class="mx-auto text-gray-200 font-light">
       <ul class="tracking-widest flex justify-center flex-col translate-y-52 items-center gap-y-6 mx-8">
         <li class='hover:list-disc'><a href='/'>Home</a></li>

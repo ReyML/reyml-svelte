@@ -2,6 +2,7 @@
   import "../app.css"
   import Header from '$lib/Header.svelte'
   import Title from '$lib/title.svelte'
+  import Footer from '$lib/Footer.svelte'
 </script>
 
 <svelte:head>

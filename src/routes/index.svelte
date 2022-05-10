@@ -30,7 +30,7 @@ onMount (() => {
 </svelte:head>
 <div class="">
   <div id="parallax" class=''>
-    <h1></h1>
+    <h1 class="text-center translate-y-52 text-8xl text-white ">I MAKE THINGS</h1>
   </div>
 </div>
 <div class="border-t-2">
@@ -45,10 +45,9 @@ onMount (() => {
   width: 100%;
   height: 95vh;
   background-image: 
-  url(/parallax/1.png),
-  url(/parallax/2.png),
   url(/parallax/3.png),
-  url(/parallax/4.png);
+  url(/parallax/1.png),
+  url(/parallax/2.png);
   /* url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png), 
   url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png), 
   url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-1.png); */

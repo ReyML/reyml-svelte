@@ -30,7 +30,7 @@ Martínez_</p>
     <div class=" text-gray-200 font-light">
       <ul class="tracking-widest text-gray-600 font-bold flex flex-col translate-y-52 items-end px-3 gap-y-6">
         <li class='hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2'><a href='/'>Home</a></li>
-        <li class='hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2'><a href='/resume'>Resume</a></li>
+        <li class='hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2'><a href='/'>Resume</a></li>
         <li class='hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2'><a href='https://rb.gy/enaq3a' target="_blank">OnlyFans</a></li>
         <li class='hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2'><a href='/'>About</a></li>
       </ul>

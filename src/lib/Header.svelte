@@ -23,13 +23,13 @@
      </div>
   </nav>  
   {#if active}       
-  <div transition:blur="{{amount: 20}, {duration: 800}}" class=' h-screen w-72 py-16 text-xl sm:text-4xl translate-y-80 mt-20 fixed z-10 hidden' class:hidden={activee} on:click={handleClick}>
+  <div transition:blur="{{amount: 20}, {duration: 800}}" class=' h-screen w-72 py-16 text-xl translate-y-80 mt-20 fixed z-10 hidden' class:hidden={activee} on:click={handleClick}>
     <div class=" text-gray-200 font-light">
-      <ul class="tracking-widest flex flex-col translate-y-52 items-end px-3 gap-y-6">
-        <li class='hover:list-disc'><a href='/'>Home</a></li>
-        <li class='hover:list-disc'><a href='/'>Resume</a></li>
-        <li class='hover:list-disc'><a href='/'>About</a></li>
-        <li class='hover:list-disc'><a href='https://rb.gy/enaq3a' target="_blank">OnlyFans</a></li>
+      <ul class="tracking-widest text-[#B5387B] font-bold flex flex-col translate-y-52 items-end px-3 gap-y-6">
+        <li class='hover:list-disc bg-gray-100 rounded-lg py-1 px-2'><a href='/'>Home</a></li>
+        <li class='hover:list-disc bg-gray-100 rounded-lg py-1 px-2'><a href='/resume'>Resume</a></li>
+        <li class='hover:list-disc bg-gray-100 rounded-lg py-1 px-2'><a href='https://rb.gy/enaq3a' target="_blank">OnlyFans</a></li>
+        <li class='hover:list-disc bg-gray-100 rounded-lg py-1 px-2'><a href='/'>About</a></li>
       </ul>
     </div>
   </div>

@@ -10,6 +10,6 @@
   <link href="../app.css" rel="stylesheet">
 </svelte:head>
 <Header/>
-<main>
+<main class="text-gray-100">
   <slot></slot>
 </main>

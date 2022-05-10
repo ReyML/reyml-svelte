@@ -11,8 +11,11 @@
 
 <header class='h-1 flex items-center justify-end w-full mb-8'>
   <nav class="w-full flex items-center justify-between bg-transparent flex-wrap backdrop-blur-md p-6 fixed">
-   <a href='/' class="z-50 flex flex-shrink-0  w-1/2">
-    <img src="Inicio.png" width="50" height="50" alt="logo" href='/' class=" scale-95 translate-y-7 rounded-full">
+   <a href='/' class="-translate-x-3 z-50 flex flex-shrink-0  w-1/2">
+    <img src="/code1.png" height="40" width='45' alt="logo" class="translate-y-7">
+    <p class="ml-2 scale-95 translate-y-7 whitespace-pre text-xl tracking-wider leading-6 text-gray-200 font-bold">
+      Reynol 
+Martínez_</p>
    </a>
    <div class="flex mt-2 justify-end w-1/2">
       <button class:is-active={active} on:click={handleClick} class="translate-y-7 sticky hamburger hamburger--spring color-white" type="button">

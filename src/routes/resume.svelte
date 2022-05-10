@@ -1,12 +1,12 @@
-<div class="whitespace-pre-wrap mx-14 lg:mx-52 text-gray-400 text-lg tracking-wide leading-7 my-5">
-<h2 class="text-xl font-bold text-red-400">Contact Info</h2>
+<div class="whitespace-pre-wrap mx-14 lg:mx-52 text-gray-400 text-lg tracking-wide leading-7 my-5 mt-20">
+<h2 class="text-xl font-bold text-pink-500">Contact Info</h2>
 <p class='in'>
 Reynol Martinez de Lara
 laraveowling@gmail.com | 0589708793 Dubai Marina <span></span>
 CUSTOMER SERVICE & SALES REPRESENTATIVE
 </p>
 <br>
-<h2 class="text-xl font-bold text-red-400">Summary</h2>
+<h2 class="text-xl font-bold text-pink-500">Summary</h2>
 <p>
 Qualified Customer Service and Sales Representative Professional with more than five years of progressive experience
 Well-rounded communicator that can rapidly pick up skills.
@@ -16,9 +16,9 @@ Areas of expertise include:
 • Office Suite • Google Suite • Edition: Final Cut Pro, Photoshop • OS: macOS, Windows • Web: Html, CSS, GitHub, Tailwindcss • Basic SEO
 </p>
 <br>
-<h2 class="text-xl font-bold text-red-400">WORK EXPERIENCE (+5 years)</h2>
+<h2 class="text-xl font-bold text-pink-500">WORK EXPERIENCE (+5 years)</h2>
 <p>
-<span class="text-blue-300"> SALES REPRESENTATIVE | EXPO 2020 – SPAIN PAVILION Oct 2021 – Present | Dubai</span>
+<span class="text-gray-100"> SALES REPRESENTATIVE | EXPO 2020 – SPAIN PAVILION Oct 2021 – Present | Dubai</span>
 • Welcomed many customers, followed protocols with VIP clients, escorted customers to other areas, gave indications related to the pavilion and helped with any questions.
 • Effectively managed customer complaints helping them to find a solution to their issues.
 • Showcased cultural awareness, brand and country knowledge by covering any need customers had.
@@ -28,14 +28,14 @@ Areas of expertise include:
 email requests.
 </p>
 <p>
-<span class="text-blue-300"> CUSTOMER SERVICE REPRESENTATIVE | GRAND’S ARTISAN FAIR Aug 2018 – Apr 2021 | Varadero</span>
+<span class="text-gray-100"> CUSTOMER SERVICE REPRESENTATIVE | GRAND’S ARTISAN FAIR Aug 2018 – Apr 2021 | Varadero</span>
 Overview: Hired to support customer service team. Coordinated events, researched possible clients and worked mutually with the product management team. Heavily involved in branding and messaging for customers.
 • Increased sales by working alongside retail associates to improve product presentations.
 • Ensured that the appropriate procedures with important clients where in place to build an excellent customer
 experience.
 </p>
 <p>
-<span class="text-blue-300"> RETAIL SALES ASSOCIATE | CLANDESTINA STORE Jul 2016 – Mar 2018 | Havana</span>
+<span class="text-gray-100"> RETAIL SALES ASSOCIATE | CLANDESTINA STORE Jul 2016 – Mar 2018 | Havana</span>
 • Lifted sales by maintaining and organizing products to make them visually appealing to customers.
 • Provided guidance to new employees by teaching them company policies and how to interact with customers.
 • Assisted customers with inquiries about existing and future products, also helped them to locate items and to
@@ -49,7 +49,7 @@ used tact and diplomacy to achieve win-win situations.
 </p>
  
 <br>
-<h2 class="text-xl font-bold text-red-400">ABOUT ME</h2>
+<h2 class="text-xl font-bold text-pink-500">ABOUT ME</h2>
 <p>
     Born in Cuba. I’ve worked in diverse environments which have offered me cultural growth and tolerance, thanks to
 that I acquired vital competencies in sales and customer service. Impassioned for technologies and software development.

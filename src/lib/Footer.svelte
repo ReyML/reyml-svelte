@@ -1,4 +1,4 @@
-<footer class=' bottom-0 absolute flex justify-center flex-col gap-2 items-center flex-wrap w-full'>
+<footer class='bottom-0 absolute flex justify-center flex-col gap-2 items-center flex-wrap w-full'>
     <div class=' text-center flex justify-center items-center text-slate-100'>
         <p>&copy; 2022 Reyml</p>
     </div>

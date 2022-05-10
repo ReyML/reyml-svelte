@@ -10,9 +10,9 @@
 </script>
 
 <header class='h-1 flex items-center justify-end w-full mb-8'>
-  <nav class="w-full flex items-center justify-between  flex-wrap backdrop-blur-md p-6 fixed">
+  <nav class="w-full flex items-center justify-between bg-transparent flex-wrap backdrop-blur-md p-6 fixed">
    <a href='/' class="z-50 flex flex-shrink-0  w-1/2">
-    <img src="inicio.png" width="50" height="50" alt="logo" href='/' class=" scale-95 translate-y-7 rounded-full">
+    <img src="Inicio.png" width="50" height="50" alt="logo" href='/' class=" scale-95 translate-y-7 rounded-full">
    </a>
    <div class="flex mt-2 justify-end w-1/2">
       <button class:is-active={active} on:click={handleClick} class="translate-y-7 sticky hamburger hamburger--spring color-white" type="button">

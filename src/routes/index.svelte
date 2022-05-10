@@ -1,8 +1,34 @@
 <script>
+  import Footer from '$lib/Footer.svelte';
+
+  (function() {
+    // Add event listener
+    document.addEventListener("mousemove", parallax);
+    const elem = document.querySelector("#parallax");
+    // Magic happens here
+    function parallax(e) {
+        let _w = window.innerWidth/2;
+        let _h = window.innerHeight/2;
+        let _mouseX = e.clientX;
+        let _mouseY = e.clientY;
+        let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+        let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
+        let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
+        let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+        console.log(x);
+        elem.style.backgroundPosition = x;
+    }
+
+})();
 </script>
 
-<div class="my-20">
-<!-- Sarah Dayan
-Staff Software Engineer at Algolia
-I build open-source front-end libraries at Algolia and host the Developer Experience podcast. I can't shut up about test-driven development and utility-first CSS. I also share what I learn on my blog and in conferences around the world. -->
+<svelte:head>
+  <title>Reyml | Reynol Martínez</title>
+</svelte:head>
+<div class="">
+  <img src="/star.jpeg" alt="" class="mb-2 h-screen w-full">
 </div>
+<div class="border-t-2">
+
+</div>
+<Footer />

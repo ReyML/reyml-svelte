@@ -6,8 +6,15 @@ html {
     background-color: #0f0c1d;
 }
 
+.inter {
+    font-family: 'Inter', sans-serif;
+  }
+.space {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
 .hamburger {
-  padding: 15px 15px;
+  padding: 13px 13px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;

@@ -10,9 +10,9 @@
 </script>
 
 <header class='h-10 flex items-center justify-end w-full mb-8'>
-  <nav class="w-full flex items-center justify-between flex-wrap opacity-75 p-6 fixed backdrop-blur-xl">
+  <nav class="w-full flex items-center justify-between flex-wrap opacity-75 p-6 fixed">
    <a href='/' class="z-50 flex flex-shrink-0  w-1/2">
-    <img src="favicon.png" width="50" height="50" alt="logo" href='/' class="translate-y-4 opacity-75 backdrop-blur-xl">
+    <img src="favicon.png" width="50" height="50" alt="logo" href='/' class="rounded-full translate-y-4 opacity-75 backdrop-blur-xl">
    </a>
    <div class="flex mt-2 justify-end w-1/2">
       <button class:is-active={active} on:click={handleClick} class="translate-y-4 sticky hamburger hamburger--spring color-white" type="button">
@@ -29,6 +29,7 @@
         <li class='hover:list-disc'><a href='/'>Home</a></li>
         <li class='hover:list-disc'><a href='/'>Resume</a></li>
         <li class='hover:list-disc'><a href='/'>About</a></li>
+        <li class='hover:list-disc'><a href='https://rb.gy/enaq3a' target="_blank">OnlyFans</a></li>
       </ul>
     </div>
   </div>

@@ -30,14 +30,14 @@
 </svelte:head>
 <div class="border-0 toTop">
   <div id="parallax" class='flex justify-center items-center '>
-    <div class="flex flex-col gap-y-5 -translate-y-4">   
+    <div class="flex flex-col gap-y-5 -translate-y-2">   
       <div class="max-w-sm md:max-w-lg mx-12 py-4 px-8 z-50 shadow-lg shadow-pink-800 rounded-lg my-20">
         <div class=" flex justify-center md:justify-end -mt-16">
           <img alt="profile pic" class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="/me.JPG">
         </div>
         <div class="tracking-wider ">
           <h2 class="text-gray-100 text-3xl font-semibold inter">About Me</h2>
-          <p class="mt-2 text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <p class="mt-2 text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
         </div>
       </div>
     </div>

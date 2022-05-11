@@ -16,25 +16,40 @@ onMount (() => {
         let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
         let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
         let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-        console.log(x);
         elem.style.backgroundPosition = x;
     }
-
+    let particles = Particles.init({
+      selector: '.background',
+      color: ['#DA0463', '#F8BBD0', '#B2FEFA'],
+      connectParticles: false,
+      maxParticle: 450,
+      speed: 0.1,
+      sizeVariations: 20,
+    })
 })();
 })
+
+const handleClick = () => {
+  scroll(1, 1)
+}
 </script>
 
 
 <svelte:head>
   <title>Reyml | Reynol Martínez</title>
+  
 </svelte:head>
-<div class="">
-  <div id="parallax" class=''>
-    <h1 class="text-center translate-y-52 text-8xl text-white ">I MAKE THINGS</h1>
+<div class="border-0">
+  <div id="parallax" class='flex justify-center items-center back'>
+    <div class="flex flex-col gap-y-5 -translate-y-40">   
+      <button class=" text-center text-xl text-gray-400 inter underline underline-offset-4 z-50" on:click="{handleClick}">Go down ↓</button>
+    </div>
   </div>
 </div>
+<canvas class="background "></canvas>
 <div class="border-t-2">
-  <!-- <img src="/star.jpeg" alt="" class="mb-2 h-screen w-full"> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+  <script src="path/to/particles.min.js"></script>
 </div>
 <!-- <Footer /> -->
 
@@ -44,15 +59,21 @@ onMount (() => {
   position: relative;
   width: 100%;
   height: 95vh;
-  background-image: 
-  url(/parallax/3.png),
+  /* background-image: 
   url(/parallax/1.png),
-  url(/parallax/2.png);
-  /* url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png), 
-  url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png), 
-  url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-1.png); */
+  url(/parallax/2.png),
+  url(/parallax/3.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-position: 50% 50%;
 }
+
+.background {
+  position: absolute; 
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
 </style>

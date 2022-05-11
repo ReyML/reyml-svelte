@@ -6,7 +6,7 @@ onMount (() => {
   let particles = Particles.init({
       selector: '.background',
       color: ['#DA0463', '#F8BBD0', '#B2FEFA'],
-      connectParticles: true,
+      connectParticles: false,
       speed: 0.1,
       sizeVariations: 20,
     })

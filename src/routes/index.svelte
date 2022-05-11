@@ -59,10 +59,10 @@ const handleClick = () => {
   position: relative;
   width: 100%;
   height: 95vh;
-  /* background-image: 
+  background-image: 
   url(/parallax/1.png),
   url(/parallax/2.png),
-  url(/parallax/3.png); */
+  url(/parallax/3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-position: 50% 50%;

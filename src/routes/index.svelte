@@ -3,7 +3,15 @@
   import {onMount} from 'svelte';
 
 onMount (() => {
-  (function() {
+  let particles = Particles.init({
+      selector: '.background',
+      color: ['#DA0463', '#F8BBD0', '#B2FEFA'],
+      connectParticles: true,
+      speed: 0.1,
+      sizeVariations: 20,
+    })
+
+  /* (function() {
     // Add event listener
     document.addEventListener("mousemove", parallax);
     const elem = document.querySelector("#parallax");
@@ -18,16 +26,9 @@ onMount (() => {
         let x = `${_depth3}, ${_depth2}, ${_depth1}`;
         elem.style.backgroundPosition = x;
     }
-    let particles = Particles.init({
-      selector: '.background',
-      color: ['#DA0463', '#F8BBD0', '#B2FEFA'],
-      connectParticles: false,
-      maxParticle: 450,
-      speed: 0.1,
-      sizeVariations: 20,
-    })
-})();
-})
+})(); */
+
+}) 
 
 const handleClick = () => {
   scroll(1, 1)
@@ -40,9 +41,9 @@ const handleClick = () => {
   
 </svelte:head>
 <div class="border-0">
-  <div id="parallax" class='flex justify-center items-center back'>
+  <div id="parallax" class='flex justify-center items-center '>
     <div class="flex flex-col gap-y-5 -translate-y-40">   
-      <button class=" text-center text-xl text-gray-400 inter underline underline-offset-4 z-50" on:click="{handleClick}">Go down ↓</button>
+      <button class="text-center text-xl text-gray-200 inter underline underline-offset-4" on:click={handleClick}>Go down ↓</button>
     </div>
   </div>
 </div>
@@ -55,17 +56,16 @@ const handleClick = () => {
 
 
 <style>
-#parallax {
-  position: relative;
+ #parallax {
+/*   position: relative; */
   width: 100%;
-  height: 95vh;
-  background-image: 
-  url(/parallax/1.png),
-  url(/parallax/2.png),
-  url(/parallax/3.png);
-  background-repeat: no-repeat;
+  height: 94vh;
+  /* background-image: 
+  url(/parallax/cool.png); */
+  /* background-repeat: repeat;
   background-position: center;
   background-position: 50% 50%;
+ */
 }
 
 .background {
@@ -73,7 +73,7 @@ const handleClick = () => {
   display: block;
   top: 0;
   left: 0;
-  z-index: 20;
+  z-index: 0;
 }
 
 </style>

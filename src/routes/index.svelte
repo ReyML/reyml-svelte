@@ -31,7 +31,7 @@
 <div class="border-0 toTop">
   <div id="parallax" class='flex justify-center items-center '>
     <div class="flex flex-col gap-y-5 -translate-y-4">   
-      <div class="max-w-sm md:max-w-lg opacity-100 py-4 px-8 z-50 shadow-lg shadow-blue-800 rounded-lg my-20">
+      <div class="max-w-sm md:max-w-lg mx-12 py-4 px-8 z-50 shadow-lg shadow-blue-800 rounded-lg my-20">
         <div class=" flex justify-center md:justify-end -mt-16">
           <img alt="profile pic" class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="/code1.png">
         </div>

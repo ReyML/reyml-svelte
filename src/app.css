@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 html {
-    background-color: #1b1c1d;
+    background-color: #0F0C1D;
+    scroll-behavior: smooth;
 }
 
 .inter {
@@ -49,7 +50,7 @@ html {
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: #B5387A;
+    background-color: #2083F7;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;

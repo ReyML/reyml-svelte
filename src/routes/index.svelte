@@ -4,7 +4,7 @@
   import { afterNavigate } from "$app/navigation"
 
   afterNavigate(() => {
-    const mq = window.matchMedia("(min-width: 800px)")
+    const mq = window.matchMedia("(min-width: 0px)")
     if (mq.matches) {
       let particles = Particles.init({
         selector: ".background",
@@ -30,9 +30,7 @@
 <div class="border-0 toTop">
   <div id="parallax" class="flex justify-center items-center ">
     <div class="flex flex-col gap-y-5 -translate-y-2">
-      <div
-        class="max-w-sm md:max-w-lg mx-12 py-4 px-8 z-50 shadow-lg shadow-pink-800 rounded-lg my-20"
-      >
+      <div class="max-w-sm md:max-w-lg mx-12 py-4 px-8 z-50 rounded-lg my-20">
         <div class=" flex justify-center md:justify-end -mt-16">
           <img
             alt="profile pic"
@@ -74,18 +72,19 @@
             href="https://urbanemoji.info"
             target="_blank"
             rel="noopener noreferrer"
-            class="bg-[#1C1927] flex h-40 justify-center md:h-52 rounded-3xl shadow-lg transition-all duration-300 hover:-translate-y-2"
+            class="bg-[#1C1927]  shadow-pink-500 flex h-40 justify-center md:h-52 rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-2"
           >
             <div
-              class="flex flex-col  max-w-md items-center justify-center mt-4 px-1"
+              class="flex flex-col  max-w-md items-center justify-start mt-4 px-1"
             >
+              <p class="text-gray-300 font-mono">Javascript</p>
               <h2
-                class="text-white text-xl sm:text-3xl font-bold font-heading text-center sm:text-left"
+                class="text-gray-300 text-xl sm:text-3xl font-bold font-heading text-center sm:text-left"
               >
                 UrbanEmoji
               </h2>
               <p
-                class="text-gray-300 tracking-wider text-md sm:text-lg md:text-xl space text-center mt-2"
+                class="text-gray-400 tracking-wider text-md sm:text-lg md:text-xl space text-center mt-2"
               >
                 The fastest way to get an Emoji combo or phrase. Just type and
                 search, from movies, meme, songs, anime, popular phrases and

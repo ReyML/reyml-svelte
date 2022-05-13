@@ -11,6 +11,15 @@
         speed: 0.1,
         sizeVariations: 10,
       })
+    } else {
+      let particles = Particles.init({
+        selector: ".background",
+        color: ["#DA0463", "#F8BBD0", "#B2FEFA"],
+        connectParticles: true,
+        speed: 0.1,
+        sizeVariations: 1,
+        maxParticles: 25,
+      })
     }
   })
   let active = true
@@ -46,7 +55,9 @@
 </svelte:head>
 <div class="border-0 toTop">
   <div id="parallax" class="flex justify-center items-center ">
-    <div class="flex flex-col gap-y-5 -translate-y-2">
+    <div
+      class="flex flex-col gap-y-5 -translate-y-2 text-white  z-50 rounded-md"
+    >
       <div class="max-w-sm md:max-w-lg mx-8 py-4 px-2 z-50 rounded-lg my-20">
         <div class=" flex justify-center md:justify-end -mt-16">
           <img
@@ -62,7 +73,7 @@
           >
             About Me
           </h2>
-          <p class="mt-2 text-gray-400">
+          <p class="mt-2 md:text-gray-400">
             I am a creative developer, who aims to work with small businesses
             and communities to bring their passions to life. I offer development
             services of web applications or websites!

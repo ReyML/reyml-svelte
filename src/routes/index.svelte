@@ -53,7 +53,7 @@
 </div>
 
 <canvas class="background" />
-<!--Simon section-->
+
 <section class="bg-section py-10 sm:py-16 md:py-24 flex justify-center mx-8">
   <div
     class="container animatable"
@@ -72,12 +72,12 @@
             href="https://urbanemoji.info"
             target="_blank"
             rel="noopener noreferrer"
-            class="bg-[#1C1927]  shadow-pink-500 flex h-40 justify-center md:h-52 rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-2"
+            class=" shadow-pink-500 flex h-52 md:h-72 justify-center rounded-xl shadow-xl transition-all duration-300 hover:-translate-y-2"
           >
             <div
-              class="flex flex-col  max-w-md items-center justify-start mt-4 px-1"
+              class="flex flex-col max-w-md items-center justify-start mt-4 px-1"
             >
-              <p class="text-gray-300 font-mono">Javascript</p>
+              <p class="text-gray-300 flex font-mono">Javascript</p>
               <h2
                 class="text-gray-300 text-xl sm:text-3xl font-bold font-heading text-center sm:text-left"
               >

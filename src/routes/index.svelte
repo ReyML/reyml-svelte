@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-  <title>Reyml | Reynol Martínez</title>
+  <title>Reynol Martínez</title>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 </svelte:head>
@@ -55,9 +55,49 @@
 </div>
 
 <canvas class="background" />
-<div class="w-full h-screen flex justify-center">
-  <h2 class="inter project mt-10 pt-12 text-5xl">Projects</h2>
-</div>
+<!--Simon section-->
+<section class="bg-section py-10 sm:py-16 md:py-24 flex justify-center mx-8">
+  <div
+    class="container animatable"
+    id="projects"
+    style="animation-play-state: running;"
+  >
+    <div class="flex flex-col items-center w-full max-w-7xl m-auto">
+      <h2
+        class="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-pink-600 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inter p-2"
+      >
+        Projects
+      </h2>
+      <div class="flex flex-col w-full mt-8">
+        <div class="w-auto lg:mx-56 my-2">
+          <a
+            href="https://urbanemoji.info"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-[#1C1927] flex h-40 justify-center md:h-52 rounded-3xl shadow-lg transition-all duration-300 hover:-translate-y-2"
+          >
+            <div
+              class="flex flex-col  max-w-md items-center justify-center mt-4 px-1"
+            >
+              <h2
+                class="text-white text-xl sm:text-3xl font-bold font-heading text-center sm:text-left"
+              >
+                UrbanEmoji
+              </h2>
+              <p
+                class="text-gray-300 tracking-wider text-md sm:text-lg md:text-xl space text-center mt-2"
+              >
+                The fastest way to get an Emoji combo or phrase. Just type and
+                search, from movies, meme, songs, anime, popular phrases and
+                much more, try it!.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <button
   on:click={handleClick}
   class="sticky z-50 hover:scale-110 duration-300 bottom-2 left-5 mb-2 "

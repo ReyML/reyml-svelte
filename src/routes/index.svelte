@@ -18,7 +18,9 @@
 
   const handleClick = () => {
     let about = document.querySelector(".toTop")
+    let projects = document.querySelector(".toProjects")
     about.scrollIntoView({ behavior: "smooth" })
+    projects.scrollIntoView({ behavior: "smooth" })
   }
 </script>
 
@@ -39,8 +41,8 @@
           />
         </div>
         <div class="tracking-wider ">
-          <h2 class="text-gray-100 text-3xl font-semibold inter">About Me</h2>
-          <p class="mt-2 text-gray-300">
+          <h2 class="text-gray-300 text-3xl font-semibold inter">About Me</h2>
+          <p class="mt-2 text-gray-400">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -64,7 +66,7 @@
   >
     <div class="flex flex-col items-center w-full max-w-7xl m-auto">
       <h2
-        class="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-pink-600 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inter p-2"
+        class="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-pink-600 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inter p-2 toProjects"
       >
         Projects
       </h2>
@@ -79,14 +81,14 @@
             <div
               class="flex flex-col max-w-2xl justify-center items-start mt-4 px-5"
             >
-              <p class="text-gray-300 flex font-mono">Javascript</p>
+              <p class="text-gray-400 flex font-mono">Javascript</p>
               <h2
-                class="text-gray-300 text-xl sm:text-3xl font-bold font-heading text-center sm:text-left"
+                class="text-gray-400 text-xl sm:text-3xl font-bold font-heading text-center sm:text-left"
               >
                 UrbanEmoji
               </h2>
               <p
-                class="text-gray-400 tracking-wider text-md sm:text-lg md:text-xl space mt-2"
+                class="text-gray-500 tracking-wider text-md sm:text-lg md:text-xl space mt-2"
               >
                 The fastest way to get an Emoji combo or phrase. Just type and
                 search, from movies, meme, songs, anime, popular phrases and
@@ -101,19 +103,19 @@
 </section>
 <button
   on:click={handleClick}
-  class="sticky z-50 hover:scale-110 duration-300 bottom-2 left-5 "
+  class="sticky rounded-full z-50 hover:scale-110 duration-300 bottom-2 left-5 "
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="46"
-    height="46"
+    width="35"
+    height="35"
     fill="#DB3864"
-    class="bi bi-arrow-up-circle"
+    class="bi bi-chevron-expand"
     viewBox="0 0 16 16"
   >
     <path
       fill-rule="evenodd"
-      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+      d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z"
     />
   </svg>
 </button>

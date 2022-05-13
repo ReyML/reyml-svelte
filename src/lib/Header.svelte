@@ -42,7 +42,7 @@
   </nav>
   {#if active}
     <div
-      transition:blur={({ amount: 20 }, { duration: 800 })}
+      transition:blur={({ amount: 20 }, { duration: 500 })}
       class=" h-screen w-72 py-16 text-xl translate-y-80 mt-20 fixed z-10 hidden"
       class:hidden={activee}
       on:click={handleClick}

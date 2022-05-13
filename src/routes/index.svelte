@@ -122,7 +122,7 @@
 </section>
 <button
   on:click={handleClick}
-  class="active sticky rounded-full z-50 hover:scale-110 duration-300 bottom-2 left-5 "
+  class="active fixed rounded-full z-50 hover:scale-110 duration-300 bottom-2 left-5 "
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"

@@ -1,19 +1,21 @@
 <div
-  class="whitespace-pre-wrap mx-14 lg:mx-52 text-gray-400 text-lg tracking-wide leading-7 my-5 mt-20"
+  class=" mx-14 lg:mx-52 text-gray-400 text-lg tracking-wide leading-7 my-5 mt-20"
 >
   <h2 class="text-xl font-bold text-pink-500">Contact Info</h2>
   <p class="in">
     Reynol Martinez de Lara laraveowling@gmail.com | Dubai Marina <span />
-    CUSTOMER SERVICE & SALES REPRESENTATIVE
+    <br /> CUSTOMER SERVICE & SALES REPRESENTATIVE
   </p>
   <br />
   <h2 class="text-xl font-bold text-pink-500">Summary</h2>
   <div>
-    Qualified Customer Service and Sales Representative Professional with more
-    than five years of progressive experience Well-rounded communicator that can
-    rapidly pick up skills. Areas of expertise include:
+    <p class="text-left">
+      Qualified Customer Service and Sales Representative Professional with more
+      than five years of progressive experience Well-rounded communicator that
+      can rapidly pick up skills. Areas of expertise include:
+    </p>
     <br />
-    <span>Tech Stack:</span>
+    <p class="text-gray-300 font-bold">Tech Stack:</p>
     <ul class="gap-x-7 flex flex-row flex-wrap tex list-disc">
       <li>HTML</li>
       <li>CSS</li>
@@ -32,76 +34,98 @@
       <li>Canva</li>
     </ul>
     <br />
-    • Organization and Forward Planning • Customer Service • Negotiation • Tracking
-    Customer Feedback • Problem Solving • Active Listening • Diplomacy • Reservation
-    management • Engaging with Diverse Customers • Communication Skills • Native
-    Spanish • Fluent English • Beginner French • Office Suite • Google Suite • Edition:
-    Final Cut Pro, Photoshop • OS: macOS, Windows
+    <ul class="gap-x-7 flex flex-row flex-wrap tex list-disc">
+      <li>Organization and Forward Planning</li>
+      <li>Customer Service</li>
+      <li>Negotiation</li>
+      <li>Tracking Customer Feedback</li>
+      <li>Problem Solving</li>
+      <li>Active Listening</li>
+      <li>Reservation management</li>
+      <li>Engaging with Diverse Customers</li>
+      <li>Communication Skills</li>
+      <li>Native Spanish</li>
+      <li>Beginner French</li>
+      <li>Office Suite</li>
+      <li>Google Suite</li>
+      <li>Fluent English</li>
+      <li>Fluent English</li>
+    </ul>
   </div>
   <br />
   <h2 class="text-xl font-bold text-pink-500">WORK EXPERIENCE (+5 years)</h2>
-  <p>
-    <span class="text-gray-100">
-      SALES REPRESENTATIVE | EXPO 2020 – SPAIN PAVILION Oct 2021 – Present |
-      Dubai</span
-    >
-    • Welcomed many customers, followed protocols with VIP clients, escorted customers
-    to other areas, gave indications related to the pavilion and helped with any
-    questions. • Effectively managed customer complaints helping them to find a solution
-    to their issues. • Showcased cultural awareness, brand and country knowledge
-    by covering any need customers had. • Assisted customers by providing products
-    or services that were adequate for their needs. • Communicated any issue, information
-    or suspicious activity to other members of the pavilion. • Managed the store,
-    received and organized new items, opened and closed the store, received calls
-    and sent email requests.
-  </p>
-  <p>
-    <span class="text-gray-100">
+  <span class="text-gray-100 text-left mt-2">
+    SALES REPRESENTATIVE | EXPO 2020 – SPAIN PAVILION Oct 2021 – Present | Dubai</span
+  >
+  <ul class="list-disc">
+    <li>
+      Welcomed many customers, followed protocols with VIP clients, escorted
+      customers to other areas, gave indications related to the pavilion and
+      helped with any questions.
+    </li>
+    <li>
+      Effectively managed customer complaints helping them to find a solution to
+      their issues.
+    </li>
+    <li>
+      Showcased cultural awareness, brand and country knowledge by covering any
+      need customers had.
+    </li>
+    <li>
+      Assisted customers by providing products or services that were adequate
+      for their needs.
+    </li>
+    <li>
+      Communicated any issue, information or suspicious activity to other
+      members of the pavilion.
+    </li>
+    <li>
+      Managed the store,received and organized new items, opened and closed the
+      store, received calls and sent email requests.
+    </li>
+  </ul>
+  <br />
+  <div>
+    <p class="text-gray-100">
       CUSTOMER SERVICE REPRESENTATIVE | GRAND’S ARTISAN FAIR Aug 2018 – Apr 2021
-      | Varadero</span
-    >
-    Overview: Hired to support customer service team. Coordinated events, researched
-    possible clients and worked mutually with the product management team. Heavily
-    involved in branding and messaging for customers. • Increased sales by working
-    alongside retail associates to improve product presentations. • Ensured that
-    the appropriate procedures with important clients where in place to build an
-    excellent customer experience.
-  </p>
-  <p>
-    <span class="text-gray-100">
-      RETAIL SALES ASSOCIATE | CLANDESTINA STORE Jul 2016 – Mar 2018 | Havana</span
-    >
-    • Lifted sales by maintaining and organizing products to make them visually appealing
-    to customers. • Provided guidance to new employees by teaching them company policies
-    and how to interact with customers. • Assisted customers with inquiries about
-    existing and future products, also helped them to locate items and to complete
-    purchases. • Solved problems and handled customer concerns by working closely
-    with the shift manager. • Tailored advice and recommendations for the Spanish
-    speaking clients. • Showed an unwavering commitment to customer service, with
-    the ability to build productive relationships, resolve complex issues and win
-    customer loyalty. • Strategic-relationship and partnership-building skills—listened
-    attentively, solved problems creatively and used tact and diplomacy to achieve
-    win-win situations.
-  </p>
+      | Varadero
+    </p>
+    <p>
+      Overview: Hired to support customer service team. Coordinated events,
+      researched possible clients and worked mutually with the product
+      management team. Heavily involved in branding and messaging for customers.
+    </p>
+    <ul class="list-disc">
+      <li>
+        Increased sales by working alongside retail associates to improve
+        product presentations.
+      </li>
+      <li>
+        Ensured that the appropriate procedures with important clients where in
+        place to build an excellent customer experience.
+      </li>
+    </ul>
+  </div>
 
   <br />
-  <h2 class="text-xl font-bold text-pink-500">ABOUT ME</h2>
-  <p>
-    Born in Cuba. I’ve worked in diverse environments which have offered me
-    cultural growth and tolerance, thanks to that I acquired vital competencies
-    in sales and customer service. Impassioned for technologies and software
-    development. Currently working on a JavaScript and React certification and
-    seeking a challenging opportunity with an organization where my professional
-    growth will help the company thrive.
-    <span />
-    • Date of Birth: 25th February 1995 • Driving License: Cuban License • Nationality:
-    Cuban
-  </p>
+  <h2 class="text-xl font-bold text-pink-500">
+    ABOUT ME (information for Dubai)
+  </h2>
+  <div class="text-left">
+    <p>
+      Born in Cuba. I’ve worked in diverse environments which have offered me
+      cultural growth and tolerance, thanks to that I acquired vital
+      competencies in sales and customer service. Impassioned for technologies
+      and software development. Currently working on a JavaScript and React
+      certification and seeking a challenging opportunity with an organization
+      where my professional growth will help the company thrive.
+    </p>
+    <ul class="gap-x-7 flex flex-row flex-wrap tex list-disc">
+      <li>Date of Birth: 25th February 1995</li>
+      <li>Driving License: Cuban License</li>
+      <li>Nationality: Cuban</li>
+    </ul>
+  </div>
 
   <br />
-  <h2 class="text-xl font-bold text-pink-500">Education</h2>
-  <p class="mb-16 pb-5">
-    • INDUSTRIAL ENGINEERING • Jul 2019 | University of Matanzas Camilo
-    Cienfuegos
-  </p>
 </div>

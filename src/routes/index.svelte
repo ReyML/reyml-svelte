@@ -26,8 +26,6 @@
   <title>Reyml | Reynol Martínez</title>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-  <script src="path/to/particles.min.js"></script>
-  <script src="https://code.createjs.com/1.0.0/soundjs.min.js"></script>
 </svelte:head>
 <div class="border-0 toTop">
   <div id="parallax" class="flex justify-center items-center ">

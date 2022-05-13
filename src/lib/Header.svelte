@@ -47,9 +47,9 @@
       class:hidden={activee}
       on:click={handleClick}
     >
-      <div class=" text-gray-200 font-light">
+      <div class=" z-50 text-gray-200 font-light">
         <ul
-          class="tracking-widest text-gray-600 font-normal flex flex-col translate-y-52 items-end px-3 gap-y-6"
+          class="z-50 tracking-widest text-gray-600 font-normal flex flex-col translate-y-52 items-end px-3 gap-y-6"
         >
           <li
             class="hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2"

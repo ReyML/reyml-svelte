@@ -17,8 +17,8 @@
         color: ["#DA0463", "#F8BBD0", "#B2FEFA"],
         connectParticles: true,
         speed: 0.1,
-        sizeVariations: 1,
-        maxParticles: 25,
+        sizeVariations: 10,
+        maxParticles: 12,
       })
     }
   })
@@ -55,9 +55,7 @@
 </svelte:head>
 <div class="border-0 toTop">
   <div id="parallax" class="flex justify-center items-center ">
-    <div
-      class="flex flex-col gap-y-5 -translate-y-2 text-white  z-50 rounded-md"
-    >
+    <div class="flex flex-col gap-y-5 -translate-y-2 text-white rounded-md">
       <div class="max-w-sm md:max-w-lg mx-8 py-4 px-2 z-50 rounded-lg my-20">
         <div class=" flex justify-center md:justify-end -mt-16">
           <img

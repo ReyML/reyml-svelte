@@ -31,6 +31,18 @@
   <title>Reynol Martínez</title>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+  <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Person",
+                "name": "Reynol Martínez",
+                "givenName": "Reyml",
+                "url": "https://www.reyml.com",
+                "gender": "male",
+                "nationality": "Cuba",
+                "sameAs": ["https://www.instagram.com/qwertyloyaluser/", "https://t.me/Musashi_M", "https://twitter.com/_illidari", "https://github.com/ReyML"]
+            }
+  </script>
 </svelte:head>
 <div class="border-0 toTop">
   <div id="parallax" class="flex justify-center items-center ">

@@ -19,8 +19,10 @@
   const handleClick = () => {
     let about = document.querySelector(".toTop")
     let projects = document.querySelector(".toProjects")
-    about.scrollIntoView({ behavior: "smooth" })
-    projects.scrollIntoView({ behavior: "smooth" })
+    if (true) {
+      projects.scrollIntoView({ behavior: "smooth" })
+      about.scrollIntoView({ behavior: "smooth" })
+    }
   }
 </script>
 
@@ -57,7 +59,7 @@
 <canvas class="background" />
 
 <section
-  class="bg-section sm:py-16 md:py-24 flex justify-center mx-8 md:-translate-y-12 -translate-y-36"
+  class="bg-section sm:py-16 md:py-24 flex justify-center mx-8 md:-translate-y-12 -translate-y-24"
 >
   <div
     class="container animatable"

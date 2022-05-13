@@ -4,7 +4,7 @@
   import { afterNavigate } from "$app/navigation"
 
   afterNavigate(() => {
-    const mq = window.matchMedia("(min-width: 0px)")
+    const mq = window.matchMedia("(min-width: 800px)")
     if (mq.matches) {
       let particles = Particles.init({
         selector: ".background",

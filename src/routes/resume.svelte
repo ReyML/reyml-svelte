@@ -3,8 +3,7 @@
 >
   <h2 class="text-xl font-bold text-pink-500">Contact Info</h2>
   <p class="in">
-    Reynol Martinez de Lara laraveowling@gmail.com | 0589708793 Dubai Marina <span
-    />
+    Reynol Martinez de Lara laraveowling@gmail.com | Dubai Marina <span />
     CUSTOMER SERVICE & SALES REPRESENTATIVE
   </p>
   <br />

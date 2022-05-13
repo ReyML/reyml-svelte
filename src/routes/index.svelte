@@ -30,7 +30,7 @@
 <div class="border-0 toTop">
   <div id="parallax" class="flex justify-center items-center ">
     <div class="flex flex-col gap-y-5 -translate-y-2">
-      <div class="max-w-sm md:max-w-lg mx-12 py-4 px-8 z-50 rounded-lg my-20">
+      <div class="max-w-sm md:max-w-lg mx-8 py-4 px-2 z-50 rounded-lg my-20">
         <div class=" flex justify-center md:justify-end -mt-16">
           <img
             alt="profile pic"

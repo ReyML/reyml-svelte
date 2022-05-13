@@ -4,7 +4,7 @@
   import { afterNavigate } from "$app/navigation"
 
   afterNavigate(() => {
-    const mq = window.matchMedia("(min-width: 800px)")
+    const mq = window.matchMedia("(min-width: 700px)")
     if (mq.matches) {
       let particles = Particles.init({
         selector: ".background",
@@ -54,7 +54,9 @@
 
 <canvas class="background" />
 
-<section class="bg-section py-10 sm:py-16 md:py-24 flex justify-center mx-8">
+<section
+  class="bg-section sm:py-16 md:py-24 flex justify-center mx-8 md:-translate-y-12 -translate-y-36"
+>
   <div
     class="container animatable"
     id="projects"
@@ -66,16 +68,16 @@
       >
         Projects
       </h2>
-      <div class="flex flex-col w-full mt-8">
-        <div class="w-auto lg:mx-56 my-2">
+      <div class="flex flex-col items-center w-full mt-8">
+        <div class="lg:mx-56 my-2">
           <a
             href="https://urbanemoji.info"
             target="_blank"
             rel="noopener noreferrer"
-            class=" shadow-pink-500 flex h-52 md:h-72 justify-center rounded-xl shadow-xl transition-all duration-300 hover:-translate-y-2"
+            class=" shadow-pink-500 flex h-52 md:h-72 justify-center items-center rounded-xl shadow-xl transition-all duration-300 hover:-translate-y-2"
           >
             <div
-              class="flex flex-col max-w-md items-center justify-start mt-4 px-1"
+              class="flex flex-col max-w-2xl justify-center items-start mt-4 px-5"
             >
               <p class="text-gray-300 flex font-mono">Javascript</p>
               <h2
@@ -84,7 +86,7 @@
                 UrbanEmoji
               </h2>
               <p
-                class="text-gray-400 tracking-wider text-md sm:text-lg md:text-xl space text-center mt-2"
+                class="text-gray-400 tracking-wider text-md sm:text-lg md:text-xl space mt-2"
               >
                 The fastest way to get an Emoji combo or phrase. Just type and
                 search, from movies, meme, songs, anime, popular phrases and
@@ -99,7 +101,7 @@
 </section>
 <button
   on:click={handleClick}
-  class="sticky z-50 hover:scale-110 duration-300 bottom-2 left-5 mb-2 "
+  class="sticky z-50 hover:scale-110 duration-300 bottom-2 left-5 "
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"

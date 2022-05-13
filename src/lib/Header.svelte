@@ -22,7 +22,7 @@
         class="translate-y-7"
       />
       <p
-        class="inter ml-2 scale-95 translate-y-9 whitespace-pre text-xl tracking-wider leading-6 text-gray-200 font-bold"
+        class="inter scale-95 translate-y-9 whitespace-pre text-xl tracking-wider leading-6 text-gray-200 font-bold"
       >
         Reynol Martínez
       </p>

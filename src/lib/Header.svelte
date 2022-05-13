@@ -64,6 +64,11 @@
           <li
             class="hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2"
           >
+            <a href="/articles">Articles</a>
+          </li>
+          <li
+            class="hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2"
+          >
             <a href="https://rb.gy/enaq3a" target="_blank">OnlyFans</a>
           </li>
           <li

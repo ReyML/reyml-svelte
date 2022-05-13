@@ -9,17 +9,36 @@
   </p>
   <br />
   <h2 class="text-xl font-bold text-pink-500">Summary</h2>
-  <p>
+  <div>
     Qualified Customer Service and Sales Representative Professional with more
     than five years of progressive experience Well-rounded communicator that can
-    rapidly pick up skills. Areas of expertise include: • Organization and
-    Forward Planning • Customer Service • Negotiation • Tracking Customer
-    Feedback • Problem Solving • Active Listening • Diplomacy • Reservation
+    rapidly pick up skills. Areas of expertise include:
+    <br />
+    <span>Tech Stack:</span>
+    <ul class="gap-x-7 flex flex-row flex-wrap tex list-disc">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Tailwindcss</li>
+      <li>Github</li>
+      <li>SEO</li>
+      <li>GraphCMS</li>
+      <li>11ty</li>
+      <li>Firebase</li>
+      <li>Svelte - SvelteKit</li>
+      <li>Terminal</li>
+      <li>VsCode</li>
+      <li>Photoshop</li>
+      <li>Final Cut Pro</li>
+      <li>Canva</li>
+    </ul>
+    <br />
+    • Organization and Forward Planning • Customer Service • Negotiation • Tracking
+    Customer Feedback • Problem Solving • Active Listening • Diplomacy • Reservation
     management • Engaging with Diverse Customers • Communication Skills • Native
-    Spanish • Fluent English • Beginner French • Office Suite • Google Suite •
-    Edition: Final Cut Pro, Photoshop • OS: macOS, Windows • Web: Html, CSS,
-    GitHub, Tailwindcss • Basic SEO
-  </p>
+    Spanish • Fluent English • Beginner French • Office Suite • Google Suite • Edition:
+    Final Cut Pro, Photoshop • OS: macOS, Windows
+  </div>
   <br />
   <h2 class="text-xl font-bold text-pink-500">WORK EXPERIENCE (+5 years)</h2>
   <p>

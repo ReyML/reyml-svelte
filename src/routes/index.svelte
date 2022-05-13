@@ -1,6 +1,4 @@
 <script>
-  import Footer from "$lib/Footer.svelte"
-  import { onMount, onDestroy, getAllContexts, tick } from "svelte"
   import { afterNavigate } from "$app/navigation"
 
   afterNavigate(() => {
@@ -15,14 +13,17 @@
       })
     }
   })
-
+  let active = true
   const handleClick = () => {
     let about = document.querySelector(".toTop")
     let projects = document.querySelector(".toProjects")
-    if (true) {
+
+    if (active) {
       projects.scrollIntoView({ behavior: "smooth" })
+    } else if (!active) {
       about.scrollIntoView({ behavior: "smooth" })
     }
+    active = !active
   }
 </script>
 
@@ -43,12 +44,16 @@
           />
         </div>
         <div class="tracking-wider ">
-          <h2 class="text-gray-300 text-3xl font-semibold inter">About Me</h2>
+          <h2
+            class:is-active={active}
+            class="text-gray-300 text-3xl font-semibold inter active"
+          >
+            About Me
+          </h2>
           <p class="mt-2 text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor.
+            I am a creative developer, who aims to work with small businesses
+            and communities to bring their passions to life. I offer development
+            services of web applications or websites!
           </p>
         </div>
       </div>
@@ -59,7 +64,7 @@
 <canvas class="background" />
 
 <section
-  class="bg-section sm:py-16 md:py-24 flex justify-center mx-8 md:-translate-y-12 -translate-y-24"
+  class="bg-section sm:py-16 md:py-24 flex justify-center mx-8 md:-translate-y-12 -translate-y-16"
 >
   <div
     class="container animatable"
@@ -68,7 +73,7 @@
   >
     <div class="flex flex-col items-center w-full max-w-7xl m-auto">
       <h2
-        class="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-pink-600 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inter p-2 toProjects"
+        class="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-pink-600 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inter p-2 toProjects activee"
       >
         Projects
       </h2>
@@ -105,7 +110,7 @@
 </section>
 <button
   on:click={handleClick}
-  class="sticky rounded-full z-50 hover:scale-110 duration-300 bottom-2 left-5 "
+  class="active sticky rounded-full z-50 hover:scale-110 duration-300 bottom-2 left-5 "
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"

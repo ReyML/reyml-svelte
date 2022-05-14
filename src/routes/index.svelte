@@ -41,22 +41,11 @@
   <title>Reynol Martínez</title>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@reyml.com" />
-  <meta name="twitter:creator" content="@reyml" />
-  <meta
-    name="twitter:title"
-    content="reyml | Designer, developer &amp; content creator"
-  />
-  <meta
-    name="twitter:description"
-    content="Front end designer and developer based in Dubai."
-  />
-  <meta name="twitter:image" content="/code.png" />
 </svelte:head>
+
 <MetaTags
   title="Reynol Martínez"
-  titleTemplate="Reynol Martínez | Home"
+  titleTemplate="%s | Reynol Martínez"
   description="Indie maker trying to learn many things at once. I know, I have to focus. I hope Google shows this description :)"
   canonical="https://www.reyml.com/"
   openGraph={{
@@ -74,6 +63,16 @@
       "Indie maker trying to learn many things at once. I know, I have to focus. I hope Google shows this description :)",
     image: "code1.png",
     imageAlt: "Twitter image alt",
+  }}
+  robotsProps={{
+    noarchive: true,
+    nosnippet: true,
+    maxSnippet: -1,
+    maxImagePreview: "none",
+    maxVideoPreview: -1,
+    notranslate: true,
+    noimageindex: true,
+    unavailableAfter: "25 Jun 2010 15:00:00 PST",
   }}
 />
 

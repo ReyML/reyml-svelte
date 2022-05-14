@@ -41,6 +41,18 @@
   <title>Reynol Martínez</title>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@reyml" />
+  <meta name="twitter:creator" content="@reyml" />
+  <meta
+    name="twitter:title"
+    content="reyml | Designer, developer &amp; content creator"
+  />
+  <meta
+    name="twitter:description"
+    content="Front end designer and developer based in Dubai."
+  />
+  <meta name="twitter:image" content="/code.png" />
 </svelte:head>
 <MetaTags
   title="Reynol Martínez"

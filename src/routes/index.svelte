@@ -53,16 +53,30 @@
     url: "https://www.reyml.com/",
     title: "Reynol Martínez",
     description: "Front-end Developer",
+    images: [
+      {
+        url: "https://www.reyml.com/triforce.png",
+        width: 800,
+        height: 600,
+        alt: "Og Image Alt",
+      },
+      {
+        url: "https://www.reyml.com/triforce.png",
+        width: 900,
+        height: 800,
+        alt: "Og Image Alt Second",
+      },
+      { url: "https://www.reyml.com/triforce.png" },
+      { url: "https://www.reyml.com/triforce.png" },
+    ],
     site_name: "Reyml",
-    image: "https://www.reyml.com/triforce.png",
   }}
   twitter={{
-    handle: "@reyml",
+    handle: "@reyml.com",
     site: "@reyml.com",
     cardType: "summary_large_image",
     title: "Reyml | Reynol Martinez",
-    description:
-      "Indie maker trying to learn many things at once. I know, I have to focus. I hope Google shows this description :)",
+    description: "Indie maker trying to learn many things at once.",
     image: "https://www.reyml.com/triforce.png",
     imageAlt: "Twitter image alt",
   }}

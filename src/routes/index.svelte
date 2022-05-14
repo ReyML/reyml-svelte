@@ -52,17 +52,17 @@
   openGraph={{
     url: "https://www.reyml.com/",
     title: "Reynol Martínez",
-    description: "Home page",
+    description: "Home",
     site_name: "Reyml",
   }}
   twitter={{
     handle: "@handle",
     site: "@reyml.com",
     cardType: "summary_large_image",
-    title: "Reyml website",
+    title: "Reyml | Reynol Martinez",
     description:
       "Indie maker trying to learn many things at once. I know, I have to focus. I hope Google shows this description :)",
-    image: "code1.png",
+    image: "https://www.icloud.com/iclouddrive/005GyFJAvY5D4Pz4Kp6NX6nzg#code1",
     imageAlt: "Twitter image alt",
   }}
   robotsProps={{

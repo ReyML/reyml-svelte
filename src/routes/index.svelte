@@ -1,5 +1,6 @@
 <script>
   import { afterNavigate } from "$app/navigation"
+  import { MetaTags } from "svelte-meta-tags"
 
   afterNavigate(() => {
     const mq = window.matchMedia("(min-width: 700px)")
@@ -40,19 +41,28 @@
   <title>Reynol Martínez</title>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-  <script type="application/ld+json">
-            {
-                "@context": "https://schema.org/",
-                "@type": "Person",
-                "name": "Reynol Martínez",
-                "givenName": "Reyml",
-                "url": "https://www.reyml.com",
-                "gender": "male",
-                "nationality": "Cuba",
-                "sameAs": ["https://www.instagram.com/qwertyloyaluser/", "https://t.me/Musashi_M", "https://twitter.com/_illidari", "https://github.com/ReyML"]
-            }
-  </script>
 </svelte:head>
+<MetaTags
+  title="Reynol Martínez"
+  titleTemplate="Reynol Martínez | Home"
+  description="Indie maker trying to learn many things at once. I know, I have to focus. I hope Google shows this description :)"
+  canonical="https://www.reyml.com/"
+  openGraph={{
+    url: "https://www.reyml.com/",
+    title: "Reynol Martínez",
+    description: "Home page",
+    site_name: "Reyml",
+  }}
+  twitter={{
+    handle: "@handle",
+    site: "@site",
+    cardType: "summary_large_image",
+    title: "Using More of Config",
+    description: "This example uses more of the available config options.",
+    image: "https://www.example.ie/twitter-image.jpg",
+    imageAlt: "Twitter image alt",
+  }}
+/>
 <div class="border-0 toTop">
   <div id="parallax" class="flex justify-center items-center ">
     <div class="flex flex-col gap-y-5 -translate-y-2 text-white rounded-md">

@@ -57,9 +57,10 @@
     handle: "@handle",
     site: "@site",
     cardType: "summary_large_image",
-    title: "Using More of Config",
-    description: "This example uses more of the available config options.",
-    image: "https://www.example.ie/twitter-image.jpg",
+    title: "Reyml website",
+    description:
+      "Indie maker trying to learn many things at once. I know, I have to focus. I hope Google shows this description :)",
+    image: "code1.png",
     imageAlt: "Twitter image alt",
   }}
 />

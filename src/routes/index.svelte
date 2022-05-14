@@ -54,9 +54,10 @@
     title: "Reynol Martínez",
     description: "Front-end Developer",
     site_name: "Reyml",
+    image: "https://www.reyml.com/triforce.png",
   }}
   twitter={{
-    handle: "@handle",
+    handle: "@reyml",
     site: "@reyml.com",
     cardType: "summary_large_image",
     title: "Reyml | Reynol Martinez",

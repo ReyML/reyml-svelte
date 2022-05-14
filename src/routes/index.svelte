@@ -62,7 +62,7 @@
     title: "Reyml | Reynol Martinez",
     description:
       "Indie maker trying to learn many things at once. I know, I have to focus. I hope Google shows this description :)",
-    image: "https://www.icloud.com/iclouddrive/005GyFJAvY5D4Pz4Kp6NX6nzg#code1",
+    image: "https://www.reyml.com/triforce.png",
     imageAlt: "Twitter image alt",
   }}
   robotsProps={{

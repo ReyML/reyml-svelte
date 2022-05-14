@@ -77,7 +77,7 @@
     cardType: "summary_large_image",
     title: "Reyml | Reynol Martinez",
     description: "Indie maker trying to learn many things at once.",
-    image: "https://www.reyml.com/triforce.png",
+    image: "https://www.reyml.com/code1.png",
     imageAlt: "Twitter image alt",
   }}
   robotsProps={{
@@ -100,7 +100,7 @@
           <img
             alt="profile pic"
             class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
-            src="/me.JPG"
+            src="/me1.JPG"
           />
         </div>
         <div class="tracking-wider ">

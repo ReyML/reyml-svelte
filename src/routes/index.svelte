@@ -1,6 +1,6 @@
 <script>
   import { afterNavigate } from "$app/navigation"
-  import { MetaTags } from "svelte-meta-tags"
+  import { MetaTags, JsonLd } from "svelte-meta-tags"
 
   afterNavigate(() => {
     const mq = window.matchMedia("(min-width: 700px)")
@@ -42,7 +42,7 @@
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@reyml" />
+  <meta name="twitter:site" content="@reyml.com" />
   <meta name="twitter:creator" content="@reyml" />
   <meta
     name="twitter:title"
@@ -67,7 +67,7 @@
   }}
   twitter={{
     handle: "@handle",
-    site: "@site",
+    site: "@reyml.com",
     cardType: "summary_large_image",
     title: "Reyml website",
     description:
@@ -76,6 +76,7 @@
     imageAlt: "Twitter image alt",
   }}
 />
+
 <div class="border-0 toTop">
   <div id="parallax" class="flex justify-center items-center ">
     <div class="flex flex-col gap-y-5 -translate-y-2 text-white rounded-md">

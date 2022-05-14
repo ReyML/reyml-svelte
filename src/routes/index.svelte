@@ -52,7 +52,7 @@
   openGraph={{
     url: "https://www.reyml.com/",
     title: "Reynol Martínez",
-    description: "Home",
+    description: "Front-end Developer",
     site_name: "Reyml",
   }}
   twitter={{

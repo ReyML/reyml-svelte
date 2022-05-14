@@ -39,6 +39,7 @@
 
 <svelte:head>
   <title>Reynol Martínez</title>
+  <link rel="canonical" href="https://reyml.com" />
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 </svelte:head>

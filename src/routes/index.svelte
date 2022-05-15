@@ -100,7 +100,7 @@
           <img
             alt="profile pic"
             class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
-            src="/me1.JPG"
+            src="/me1.jpg"
           />
         </div>
         <div class="tracking-wider ">

@@ -13,8 +13,8 @@
     <p class="text-left">
       I am a creative developer, who aims to work with small businesses
       and communities to bring their passions to life. I offer development
-      services of web applications or websites! 
-      Among my projects I have UrbanEmoji and some Open Source contributions to <a class="text-blue-400" href="javascript.info">JavaScript.info</a> and <a href="https://twitter.com/breez_tech?s=21&t=RuZQxas-Fl_ijgYFbm3g9A" class="text-blue-400">Breez Wallet</a> 
+      services of web applications or websites! <br>
+      I have built UrbanEmoji and have contributed to some Open Source projects like <a class="text-blue-400" href="javascript.info">JavaScript.info</a> and <a href="https://twitter.com/breez_tech?s=21&t=RuZQxas-Fl_ijgYFbm3g9A" class="text-blue-400">Breez Wallet</a> 
     </p>
       <br />
       <p>

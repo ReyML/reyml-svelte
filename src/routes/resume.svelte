@@ -3,14 +3,22 @@
 >
   <h2 class="text-xl font-bold text-pink-500">Contact Info</h2>
   <p class="in">
-    Reynol Martinez de Lara laraveowling@gmail.com | Dubai Marina <span />
+    Reynol Martinez de Lara | Dubai Marina <span />
     <br /> CUSTOMER SERVICE & SALES REPRESENTATIVE
   </p>
+  <p class="text-xs font-bold text-blue-400">For Contact please use the contact button</p>
   <br />
   <h2 class="text-xl font-bold text-pink-500">Summary</h2>
   <div>
     <p class="text-left">
-      Qualified Customer Service and Sales Representative Professional with more
+      I am a creative developer, who aims to work with small businesses
+      and communities to bring their passions to life. I offer development
+      services of web applications or websites! 
+      Among my projects I have UrbanEmoji and some Open Source contributions to <a class="text-blue-400" href="javascript.info">JavaScript.info</a> and <a href="https://twitter.com/breez_tech?s=21&t=RuZQxas-Fl_ijgYFbm3g9A" class="text-blue-400">Breez Wallet</a> 
+    </p>
+      <br />
+      <p>
+      Also, I'm a qualified Customer Service and Sales Representative Professional with more
       than five years of progressive experience Well-rounded communicator that
       can rapidly pick up skills. Areas of expertise include:
     </p>
@@ -45,18 +53,16 @@
       <li>Engaging with Diverse Customers</li>
       <li>Communication Skills</li>
       <li>Native Spanish</li>
+      <li>Fluent English</li>
       <li>Beginner French</li>
       <li>Office Suite</li>
       <li>Google Suite</li>
-      <li>Fluent English</li>
-      <li>Fluent English</li>
     </ul>
   </div>
   <br />
-  <h2 class="text-xl font-bold text-pink-500">WORK EXPERIENCE (+5 years)</h2>
+  <h2 class="text-xl font-bold text-pink-500">WORK EXPERIENCE & PROJECTS (+5 years)</h2>
   <span class="text-gray-100 text-left mt-2">
-    SALES REPRESENTATIVE | EXPO 2020 – SPAIN PAVILION Oct 2021 – Present | Dubai</span
-  >
+    SALES REPRESENTATIVE | EXPO 2020 – SPAIN PAVILION Oct 2021 – Present | Dubai</span>
   <ul class="list-disc">
     <li>
       Welcomed many customers, followed protocols with VIP clients, escorted

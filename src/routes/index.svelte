@@ -47,7 +47,7 @@
 <MetaTags
   title="Reynol Martínez"
   titleTemplate="%s | Reynol Martínez"
-  description="Indie maker trying to learn many things at once. I know, I have to focus. I hope Google shows this description :)"
+  description="I’m a developer working on Front-end for the moment"
   canonical="https://www.reyml.com/"
   openGraph={{
     url: "https://www.reyml.com/",
@@ -76,7 +76,7 @@
     site: "@reyml.com",
     cardType: "summary_large_image",
     title: "Reyml | Reynol Martinez",
-    description: "Indie maker trying to learn many things at once.",
+    description: "I’m a developer working on Front-end for the moment",
     image: "https://www.reyml.com/code1.png",
     imageAlt: "Twitter image alt",
   }}

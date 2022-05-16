@@ -49,10 +49,4 @@
 <svelte:head>
   <title>{status}</title>
 </svelte:head>
-
-<style>
-  .error {
-    text-align: center;
-    margin-bottom: 60px;
-  }
-</style>
+>

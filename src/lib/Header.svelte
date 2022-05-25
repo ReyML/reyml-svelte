@@ -1,12 +1,12 @@
 <script>
-  import { blur } from "svelte/transition"
+  import { blur } from "svelte/transition";
 
-  let active = false
-  let activee = true
+  let active = false;
+  let activee = true;
   const handleClick = () => {
-    active = !active
-    activee = !activee
-  }
+    active = !active;
+    activee = !activee;
+  };
 </script>
 
 <header class="h-1 flex items-center justify-end w-full mb-14">
@@ -42,7 +42,7 @@
   </nav>
   {#if active}
     <div
-      transition:blur={{ amount: 0 }, { duration: 500 }}
+      transition:blur={({ amount: 0 }, { duration: 500 })}
       class=" h-screen w-72 py-16 text-xl translate-y-80 mt-20 fixed z-10 hidden"
       class:hidden={activee}
       on:click={handleClick}
@@ -65,11 +65,6 @@
             class="hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2"
           >
             <a href="/articles">Articles</a>
-          </li>
-          <li
-            class="hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2"
-          >
-            <a href="https://rb.gy/enaq3a" target="_blank">OnlyFans</a>
           </li>
           <li
             class="hover:list-disc hover:scale-125 duration-75 bg-gray-100 rounded-lg py-1 px-2"

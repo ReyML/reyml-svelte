@@ -1,5 +1,6 @@
+
 <div
-  class=" mx-14 lg:mx-52 text-gray-400 text-lg tracking-wide leading-7 my-5 mt-20"
+  class=" mx-14 lg:mx-52 text-gray-400 text-lg tracking-wide leading-7 translate-y-28 mb-40"
 >
   <h2 class="text-xl font-bold text-pink-500">Contact Info</h2>
   <p class="in">

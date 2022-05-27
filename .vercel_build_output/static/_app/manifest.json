@@ -1,0 +1,91 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-0bd981bd.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-6f1d4f7a.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      "src/routes/__error.svelte",
+      "src/routes/articles/[slug].svelte",
+      "src/routes/articles/index.svelte",
+      "src/routes/index.svelte",
+      "src/routes/resume.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-42243e1c.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6f1d4f7a.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-1f86a9a8.css"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "pages/__error.svelte-6601a811.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6f1d4f7a.js"
+    ]
+  },
+  "src/routes/articles/[slug].svelte": {
+    "file": "pages/articles/_slug_.svelte-bb89b16c.js",
+    "src": "src/routes/articles/[slug].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6f1d4f7a.js",
+      "_index-445c356f.js"
+    ]
+  },
+  "src/routes/articles/index.svelte": {
+    "file": "pages/articles/index.svelte-cc4dd59f.js",
+    "src": "src/routes/articles/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6f1d4f7a.js",
+      "_index-445c356f.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-6f1da6a5.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6f1d4f7a.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-e155fc07.css"
+    ]
+  },
+  "src/routes/resume.svelte": {
+    "file": "pages/resume.svelte-bdc0dadb.js",
+    "src": "src/routes/resume.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-6f1d4f7a.js"
+    ]
+  },
+  "_index-6f1d4f7a.js": {
+    "file": "chunks/index-6f1d4f7a.js"
+  },
+  "_singletons-d1fb5791.js": {
+    "file": "chunks/singletons-d1fb5791.js"
+  },
+  "_index-445c356f.js": {
+    "file": "chunks/index-445c356f.js"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-63d23460.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/sitemap.xml.js": {
+    "file": "entries/endpoints/sitemap.xml.js",
+    "src": "src/routes/sitemap.xml.js",
+    "isEntry": true
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-63d23460.js"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-25985678.css"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "entries/pages/__error.svelte.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-63d23460.js"
+    ]
+  },
+  "src/routes/articles/[slug].svelte": {
+    "file": "entries/pages/articles/_slug_.svelte.js",
+    "src": "src/routes/articles/[slug].svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-63d23460.js"
+    ]
+  },
+  "src/routes/articles/index.svelte": {
+    "file": "entries/pages/articles/index.svelte.js",
+    "src": "src/routes/articles/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-63d23460.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-63d23460.js"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-677f7f3d.css"
+    ]
+  },
+  "src/routes/resume.svelte": {
+    "file": "entries/pages/resume.svelte.js",
+    "src": "src/routes/resume.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-63d23460.js"
+    ]
+  },
+  "_index-63d23460.js": {
+    "file": "chunks/index-63d23460.js"
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks-1c45ba0b.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}

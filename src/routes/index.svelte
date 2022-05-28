@@ -92,8 +92,7 @@
   }}
 />
 
-<canvas class="background" />
-<div id="parallax" class="flex w-full justify-center items-center">
+<div  class="h-screen flex w-full justify-center items-center">
   <div
     class="max-w-sm md:max-w-lg w-full mx-10 translate-y-48 md:translate-y-0"
   >
@@ -146,6 +145,8 @@
   </div>
 </div>
 
+<!-- <canvas class="background" /> -->
+
 <section class=" h-screen items-center flex justify-center">
   <div class="my-16 mx-4 sm:mx-14 md:mx-24 lg:mx-72" id="projects" style="animation-play-state: running;">
       <h2
@@ -180,18 +181,6 @@
 </section>
 
 <style>
-  #parallax {
-    /*   position: relative; */
-    width: 100%;
-    height: 94vh;
-    /* background-image: 
-  url(/parallax/cool.png); */
-    /* background-repeat: repeat;
-  background-position: center;
-  background-position: 50% 50%;
- */
-  }
-
   .background {
     position: absolute;
     display: block;

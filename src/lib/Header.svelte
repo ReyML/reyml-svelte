@@ -21,7 +21,7 @@
     </div>
   {/if} 
   <nav
-    class="flex fixed justify-between border-0 flex-nowrap w-full backdrop-blur-md z-50 "
+    class="flex fixed justify-between border-0 flex-nowrap w-full backdrop-blur-md z-50"
   >
   <div class='flex justify-start'>
     <a href="/" class=" -translate-x z-50 flex flex-shrink-0 ">

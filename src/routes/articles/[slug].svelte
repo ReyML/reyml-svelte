@@ -46,8 +46,9 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<div class="mx-7 md:mx-16 lg:mx-52 my-16 py-14">
-  <button class="my-4 rounded-md inter px-3 py-1 bg-[#1C1927]"
+<div class="pt-40">
+<div class="mx-7 md:mx-16 lg:mx-52 flex flex-col h-screen justify-center ">
+  <button class="flex items-start w-16 rounded-md inter px-3 py-1 bg-[#1C1927]"
     ><a href="/articles">Back</a></button
   >
 
@@ -75,4 +76,5 @@
   <article class="text-gray-400 tracking-wider leading-7">
     {@html post.content.html}
   </article>
+</div>
 </div>

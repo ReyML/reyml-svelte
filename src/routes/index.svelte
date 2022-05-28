@@ -94,7 +94,7 @@
 
 <div class="h-screen items-center flex w-full justify-center">
   <div
-    class="translate-y-48 max-w-sm md:max-w-lg w-full mx-6 md:translate-y-0"
+    class="translate-y-36 max-w-sm md:max-w-lg w-full mx-6 md:translate-y-0"
   >
     <div class=" flex justify-center md:justify-end ">
       <img
@@ -147,8 +147,8 @@
 
 <canvas class="background" />
 
-<section class=" items-center flex justify-center mt-48">
-  <div class="my-16 mx-4 sm:mx-14 md:mx-24 lg:mx-72 pt-12" id="projects">
+<section class=" items-center flex justify-center mt-28">
+  <div class="my-32 mx-4 sm:mx-14 md:mx-24 lg:mx-72" id="projects">
     <h2
       class="text-center pb-3 bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-pink-600 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inter toProjects activee"
     >

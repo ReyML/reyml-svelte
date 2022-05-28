@@ -16,12 +16,12 @@
       transition:blur={{ amount: 0 }, { duration: 100 }}
       class:hidden={activee}
       on:click={handleClick}
-      class="blur-lg backdrop-blur-md z-10 hidden fixed top-0 bottom-0 left-0 right-0 "
+      class="blur-lg backdrop-blur-md z-10 hidden  top-0 bottom-0 left-0 right-0 "
     >
     </div>
   {/if} 
   <nav
-    class="flex justify-between border-0 flex-nowrap w-full backdrop-blur-md z-10 fixed"
+    class="flex justify-between border-0 flex-nowrap w-full backdrop-blur-md z-50 "
   >
   <div class='flex justify-start'>
     <a href="/" class=" -translate-x z-50 flex flex-shrink-0 ">
@@ -53,7 +53,7 @@
     </div>
   </nav>
       <div
-      class="text-xl z-10 hidden fixed mx-auto w-full" 
+      class="text-xl z-10 hidden  mx-auto w-full" 
       class:hidden={activee}
       on:click={handleClick}
     >

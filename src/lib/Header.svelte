@@ -21,7 +21,7 @@
     </div>
   {/if} 
   <nav
-    class="flex justify-between border-0 flex-nowrap w-full backdrop-blur-md fixed z-50"
+    class="flex justify-between border-0 flex-nowrap w-full backdrop-blur-md z-10 fixed"
   >
   <div class='flex justify-start'>
     <a href="/" class=" -translate-x z-50 flex flex-shrink-0 ">
@@ -39,11 +39,11 @@
       </p>
     </a>
   </div>
-    <div class="flex justify-center">
+    <div class="">
      <button
         class:is-active={active}
         on:click={handleClick}
-        class="sticky hamburger hamburger--spring color-white"
+        class=" hamburger hamburger--spring color-white"
         type="button"
       >
         <span class="hamburger-box">

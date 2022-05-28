@@ -94,7 +94,7 @@
 
 <div class="h-screen items-center flex w-full justify-center">
   <div
-    class=" max-w-sm md:max-w-lg w-full mx-6 md:translate-y-0"
+    class="translate-y-48 max-w-sm md:max-w-lg w-full mx-6 md:translate-y-0"
   >
     <div class=" flex justify-center md:justify-end ">
       <img

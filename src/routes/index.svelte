@@ -91,11 +91,11 @@
     unavailableAfter: "25 Jun 2010 15:00:00 PST",
   }}
 />
-<div class="translate-y-16 h-auto">
-  <div id="parallax" class="flex justify-center items-center h-screen">
-    <div class="flex flex-col gap-y-5 -translate-y-2 text-white rounded-md">
-      <div class="max-w-sm md:max-w-lg mx-8 py-4 px-2 z-50 rounded-lg my-20">
-        <div class=" flex justify-center md:justify-end -mt-16">
+
+
+    <div id='parallax' class="flex w-full justify-center items-center">
+      <div class="max-w-sm md:max-w-lg py-4 px-2 z-50 my-20 w-full translate-y-10">
+        <div class=" flex justify-center md:justify-end ">
           <img
             alt="profile pic"
             class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
@@ -144,8 +144,8 @@
         </div>
       </div>
     </div>
-  </div>
-</div>
+
+
 
 <canvas class="background" />
 

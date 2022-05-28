@@ -93,7 +93,7 @@
 />
 
 <div class="border-0">
-  <div id="parallax" class="flex justify-center items-center ">
+  <div id="parallax" class="flex justify-center items-center translate-y-16">
     <div class="flex flex-col gap-y-5 -translate-y-2 text-white rounded-md">
       <div class="max-w-sm md:max-w-lg mx-8 py-4 px-2 z-50 rounded-lg my-20">
         <div class=" flex justify-center md:justify-end -mt-16">
@@ -108,13 +108,39 @@
             class:is-active={active}
             class="text-gray-300 text-3xl font-semibold inter active"
           >
-            About Me
+            Web Developer
           </h2>
-          <p class="mt-2 md:text-gray-400">
-            I am a creative developer, who aims to work with small businesses
-            and communities to bring their passions to life. I offer development
-            services of web applications or websites!
-          </p>
+          <h2 class="font-sans">Why hire me</h2>
+          <ul class="mt-2 text-gray-400 font-sans text-md">
+            <li>
+              <span class="text-red-200 font-bold">Communicative</span> - I come
+              from a customer service background so I have a deep appreciation
+              for clear communication. I keep my clients updated frequently and
+              I can translate technical concepts into words that anyone can
+              understand.
+            </li>
+            <li>
+              <span class="text-red-200 font-bold">Detail orientated</span> - I am
+              thorough and caring to ensure that the final product matches your specifications.
+            </li>
+            <li>
+              <span class="text-red-200 font-bold">Time</span> - I understand the
+              importance of projects being delivered on time and I will treat deadlines
+              with maximum respect.
+            </li>
+          </ul>
+          <ul><br>
+            <p class='text-red-200'>Core expertise</p>
+            <div class="flex flex-row flex-wrap gap-x-4 text-gray-400">
+              <li>Javascript</li>
+              <li>Tailwindcss</li>
+              <li>SvelteKit</li>
+              <li>React</li>
+              <li>11ty</li>
+              <li>GraphCMS</li>
+              <li>Firebase</li>
+            </div>
+          </ul>
         </div>
       </div>
     </div>
@@ -124,7 +150,7 @@
 <canvas class="background" />
 
 <section
-  class="bg-section sm:py-16 md:py-24 flex justify-center mx-8 md:-translate-y-12 -translate-y-16"
+  class="bg-section h-screen items-center flex justify-center mx-8 "
 >
   <div
     class="container animatable"

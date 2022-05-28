@@ -46,7 +46,7 @@
   <title>{post.title}</title>
 </svelte:head>
 
-<div class="pt-40">
+<div class="pt-52">
 <div class="mx-7 md:mx-16 lg:mx-52 flex flex-col h-screen justify-center ">
   <button class="flex items-start w-16 rounded-md inter px-3 py-1 bg-[#1C1927]"
     ><a href="/articles">Back</a></button
@@ -73,7 +73,7 @@
       {new Date(post.date).toDateString()}
     </p>
   </div>
-  <article class="text-gray-400 tracking-wider leading-7">
+  <article class="text-gray-400 tracking-wider leading-7 mb-52">
     {@html post.content.html}
   </article>
 </div>

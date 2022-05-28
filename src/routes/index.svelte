@@ -145,7 +145,7 @@
   </div>
 </div>
 
-<!-- <canvas class="background" /> -->
+<canvas class="background" />
 
 <section class=" h-screen items-center flex justify-center">
   <div class="my-16 mx-4 sm:mx-14 md:mx-24 lg:mx-72" id="projects" style="animation-play-state: running;">

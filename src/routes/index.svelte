@@ -92,9 +92,9 @@
   }}
 />
 
-<div  class="h-screen flex w-full justify-center items-center">
+<div class="h-screen items-center flex w-full justify-center">
   <div
-    class="max-w-sm md:max-w-lg w-full mx-10 translate-y-48 md:translate-y-0"
+    class=" max-w-sm md:max-w-lg w-full mx-6 md:translate-y-0"
   >
     <div class=" flex justify-center md:justify-end ">
       <img
@@ -147,24 +147,22 @@
 
 <canvas class="background" />
 
-<section class=" h-screen items-center flex justify-center">
-  <div class="my-16 mx-4 sm:mx-14 md:mx-24 lg:mx-72" id="projects" style="animation-play-state: running;">
-      <h2
-        class="text-center pb-3 bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-pink-600 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inter toProjects activee"
-      >
-        Projects
-      </h2>
-      <a
-        href="https://urbanemoji.info"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="md:p-10 p-4 sm:p-6 flex flex-col justify-center items-start shadow-pink-500 rounded-xl shadow-xl transition-all duration-300 hover:-translate-y-2"
-      >
+<section class=" items-center flex justify-center mt-48">
+  <div class="my-16 mx-4 sm:mx-14 md:mx-24 lg:mx-72 pt-12" id="projects">
+    <h2
+      class="text-center pb-3 bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-pink-600 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl inter toProjects activee"
+    >
+      Projects
+    </h2>
+    <a
+      href="https://urbanemoji.info"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="md:p-10 p-4 sm:p-6 flex flex-col justify-center items-start shadow-pink-500 rounded-xl shadow-xl transition-all duration-300 hover:-translate-y-2"
+    >
       <div class="md:mx-14">
         <p class="text-gray-400 font-mono">Javascript</p>
-        <h2
-          class="text-gray-400 text-xl sm:text-3xl font-bold font-heading "
-        >
+        <h2 class="text-gray-400 text-xl sm:text-3xl font-bold font-heading ">
           UrbanEmoji
         </h2>
         <p
@@ -174,10 +172,9 @@
           from movies, meme, songs, anime, popular phrases and much more, try
           it!.
         </p>
-        </div>
-      </a>
-    </div>
-
+      </div>
+    </a>
+  </div>
 </section>
 
 <style>

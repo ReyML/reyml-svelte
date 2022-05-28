@@ -16,4 +16,4 @@
 <main class="text-gray-100 space">
   <slot></slot>
 </main>
-<!-- <Footer /> -->
+<Footer />

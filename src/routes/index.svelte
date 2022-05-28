@@ -93,8 +93,8 @@
 />
 
 
-    <div id='parallax' class="flex w-full justify-center items-end h-screen">
-      <div class="max-w-sm md:max-w-lg py-4 px-2 z-30 my-20 w-full mx-10">
+    <div id='parallax' class="flex w-full justify-center items-end">
+      <div class="max-w-sm md:max-w-lg py-4 px-2 z-10 my-20 w-full mx-10 translate-y-40 md:translate-y-12">
         <div class=" flex justify-center md:justify-end ">
           <img
             alt="profile pic"

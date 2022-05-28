@@ -94,7 +94,7 @@
 
 
     <div id='parallax' class="flex w-full justify-center items-center">
-      <div class="max-w-sm md:max-w-lg w-full mx-10 ">
+      <div class="max-w-sm md:max-w-lg w-full mx-10 translate-y-48 md:translate-y-0">
         <div class=" flex justify-center md:justify-end ">
           <img
             alt="profile pic"

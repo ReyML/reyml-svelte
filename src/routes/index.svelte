@@ -91,9 +91,8 @@
     unavailableAfter: "25 Jun 2010 15:00:00 PST",
   }}
 />
-
-<div class="border-0">
-  <div id="parallax" class="flex justify-center items-center translate-y-16">
+<div class="translate-y-16 h-auto">
+  <div id="parallax" class="flex justify-center items-center h-screen">
     <div class="flex flex-col gap-y-5 -translate-y-2 text-white rounded-md">
       <div class="max-w-sm md:max-w-lg mx-8 py-4 px-2 z-50 rounded-lg my-20">
         <div class=" flex justify-center md:justify-end -mt-16">
@@ -129,8 +128,9 @@
               with maximum respect.
             </li>
           </ul>
-          <ul><br>
-            <p class='text-red-200'>Core expertise</p>
+          <ul>
+            <br />
+            <p class="text-red-200">Core expertise</p>
             <div class="flex flex-row flex-wrap gap-x-4 text-gray-400">
               <li>Javascript</li>
               <li>Tailwindcss</li>
@@ -149,9 +149,7 @@
 
 <canvas class="background" />
 
-<section
-  class="bg-section h-screen items-center flex justify-center mx-8 "
->
+<section class="bg-section h-screen items-center flex justify-center mx-8 ">
   <div
     class="container animatable"
     id="projects"
